@@ -6,3 +6,7 @@ function lawnTime (width, length, rate) {
 }
 
 export {lawnTime}
+
+// everything in brackets are things that need to be declared in the spec
+// rate = how many square meters can be mowed per minute
+// for example rate = 10, means 10 meters squared can be mowed per minute (1)
