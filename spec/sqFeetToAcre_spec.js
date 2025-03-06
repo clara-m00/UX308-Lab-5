@@ -10,13 +10,13 @@ describe("test sqFeetToAcre", function() {
     it("test 320000 square feet", function() {
         let sqfeet = 320000;
         let acre = sqFeetToAcre(sqfeet);
-        expect(acre.toFixed(2)).toBe("1.05");
+        expect(acre.toFixed(2)).toBe("7.35");
       });
 
 
     it("test 45678 square feet", function() {
         let sqfeet = 45678;
         let acre = sqFeetToAcre(sqfeet);
-        expect(acre.toFixed(2)).toBe("7.35");
+        expect(acre.toFixed(2)).toBe("1.05");
       });
   });
