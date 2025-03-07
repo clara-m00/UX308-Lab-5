@@ -13,6 +13,8 @@ function yeeHa (x) {
     }
 }
 
+export {yeeHa}
+
 // 5 % 2 = 1 bc there is one left over
 // % is the remainder operator
 // 6/2 = 3, two goes into 6 three times, leaving zero left over 
